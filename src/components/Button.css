@@ -1,0 +1,48 @@
+:root {
+  --primary: #fff;
+  --fontRoboto: 'Roboto', sans-serif;
+  --fontMontserrat: 'Montserrat', sans-serif;
+  --fontOswald: 'Oswald', sans-serif;
+}
+.btn {
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  font-size: 17px;
+  margin-top: 3px;
+
+  padding: 5px 30px;
+  font-weight: 500;
+  font-family: var(--fontOswald);
+}
+.btn--primary {
+  backgrund-color: var(--primary);
+  color: #242424;
+  border: 1px solid var(--primary);
+}
+.btn--outline {
+  font-size: 17px;
+  margin-top: 3px;
+  background-color: transparent;
+  color: var(--primary);
+  padding: 5px 30px;
+  font-weight: 500;
+  font-family: var(--fontOswald);
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+}
+.btn-medium {
+  padding: 8px 20px;
+}
+.btn-large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+.btn--medium:hover,
+.btn--large:hover {
+  background: var(--primary);
+  color: #242424;
+  transition: all 0.3s ease-out;
+}
